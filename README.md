@@ -52,7 +52,7 @@ Para garantir o funcionamento adequado do projeto, além dos interpretadores par
 
 Os diretórios e arquivos são estruturados da seguinte maneira:
 
-- **Diretório Raiz (root):** Contém os arquivos `index.js`, responsável por iniciar o backend e conectar o banco de dados, `package.json` e `package-lock.json`, responsáveis por gerenciar as dependências do projeto. Além disso, contém o diretório `src, que abriga os demais diretórios e arquivos do backend, e o diretório `frontend`, que contém os arquivos e diretórios do frontend, além do arquivo da API.
+- **Diretório Raiz (root):** Contém os arquivos `index.js`, responsável por iniciar o backend e conectar o banco de dados, `package.json` e `package-lock.json`, responsáveis por gerenciar as dependências do projeto. Além disso, contém o diretório `src`, que abriga os demais diretórios e arquivos do backend, e o diretório `frontend`, que contém os arquivos e diretórios do frontend, além do arquivo da API.
 - **Diretório src:** Contém vários subdiretórios:
   - **Diretório config:** Contém o arquivo `db.js`, que configura o banco de dados.
   - **Diretório controllers:** Contém os arquivos `cadastroControllers.js` e `loginControllers.js`, responsáveis por definir as funções de cadastro e login no backend, respectivamente.
